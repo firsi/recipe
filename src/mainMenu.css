@@ -1,0 +1,50 @@
+html{
+    overflow-y: hidden;
+}
+main{
+    transition: 0.5s ease-in-out;
+}
+.cards-container {
+    text-align:center;
+  
+}
+.card{
+    margin:2%;
+    display:inline-block;
+    text-align:left;
+
+}
+.author-picture{
+    display:inline-block;
+    
+}
+.by{
+    color:grey;
+    padding-left:2%;
+}
+.author-picture img{
+border-radius:50%;
+width:25px;
+height:25px;
+}
+
+.img-recipe{
+height:250px;
+width:300px;
+}
+
+.cards-container{
+    margin-bottom:3%;
+}
+.card-title a{
+    color:#000;
+    transition:0.1s ease-in-out;
+
+}
+.card-title a:hover{
+color:#2e9fb3;
+text-decoration:none;
+}
+.error-wrapper{
+    margin-top:2%;
+}
